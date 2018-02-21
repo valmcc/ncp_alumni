@@ -4,11 +4,10 @@
 	<div class="center mw6 pv3">
 		
 		{{ partial "toc" "Table of Contents" .Title }}
-
+		
+		{{ .Content }}
 
 		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
 
 		<div class="flex-ns mb3">
 	        	{{ range .Params.contact_entries }}
