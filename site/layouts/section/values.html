@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "toc" }}
+{{ partial "toc" "Table of Contents" .Title }}
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
