@@ -11,12 +11,12 @@
 	--black: rgba(41, 55, 66, 1);
 
 	/* Typography */
-	--font-family: avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family: helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 14px;
-	--font-size-m: 18px;
-	--font-size-l: 20px;
+	--font-size-m: 15px;
+	--font-size-l: 16px;
 
 	--body-font-weight: 400;
 	--bold-font-weight: 700;
