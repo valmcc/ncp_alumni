@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Country, name: country, widget: string}
           - label: fields
             name: fields
-            widget" list
+            widget: list
             fields:
               - label: Body
               - name: body
