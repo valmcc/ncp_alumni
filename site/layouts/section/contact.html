@@ -1,9 +1,23 @@
 {{ define "main" }}
+<head>
+	
+h1 {
+  font-size: 30px;
+}
+h1 a {
+  color: inherit;
+}
 
+h2 {
+  font-size: 24px;
+}
+</head>
 <div class="ph3 bg-off-white">
 	<div class="center mw6 pv3">
 		
 		{{ partial "toc" . }}
+		
+		
 		
 		{{ .Content }}
 
