@@ -2,7 +2,12 @@
 title: Values
 image: /img/about-jumbotron.jpg
 values:
-  - content: testing!!
+  - content: |-
+      testing!!
+
+
+
+      # WOW OW mdkvmdkvms
     heading: Shade-grown coffee
     imageUrl: ''
   - content: TEETST
