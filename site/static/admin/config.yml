@@ -56,6 +56,28 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+      - file: "site/content/country/_index.md"
+        label: "Country page"
+        name: "country"
+        fields:
+          - {label: Country, name: country, widget: string}
+          - label: fields
+            name: fields
+            widget" list
+            fields:
+              - label: Body
+              - name: body
+              - widget: markdown
+          - label: Contact Entries
+            name: contact_entries
+            widget: list
+            fields:
+              - label: Heading
+                name: heading
+                widget: string
+              - label: Text
+                name: text
+                widget: text
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
