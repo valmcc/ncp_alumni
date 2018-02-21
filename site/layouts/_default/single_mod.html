@@ -1,3 +1,8 @@
+{{ define "title" }}
+{{ end }}
+{{ define "footer" }}
+{{ end }}
+{{ define "main" }}
 <header>
   <h2 class = "f2 lh-title b mb3">{{ .Title }}</h2> 
   <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words </div>
@@ -5,3 +10,4 @@
 <body class="sans-serif">
 {{ .Content }}
 </body>
+{{ end }}
