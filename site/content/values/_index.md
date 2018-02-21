@@ -2,13 +2,19 @@
 title: Values
 image: /img/about-jumbotron.jpg
 values:
-  - content: testing!!
+  - content: |-
+      testing!!
+
+
+
+      # WOW OW mdkvmdkvms
     heading: Shade-grown coffee
     imageUrl: ''
   - content: TEETST
     heading: Single origin??
     imageUrl: /img/about-single-origin.jpg
-  - heading: Sustainable farming
+  - content: '# YEAH EYA'
+    heading: Sustainable farming
     imageUrl: /img/about-sustainable-farming.jpg
   - heading: Direct sourcing
     imageUrl: /img/about-direct-sourcing.jpg
