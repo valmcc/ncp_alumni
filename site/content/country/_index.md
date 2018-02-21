@@ -1,5 +1,6 @@
 ---
 country: COUNTRY
+type: country
 fields:
   - body: wdwdw
     undefined: wddwdwdwdwfsdfdsfdsfddsfdsfdsfdsfdsfdsf
