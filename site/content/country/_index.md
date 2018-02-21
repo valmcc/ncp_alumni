@@ -1,3 +1,10 @@
 ---
-title: Our Coffee
-type: products
+country: COUNTRY
+fields:
+  - body: wdwdw
+    undefined: wddwdwdwdwfsdfdsfdsfddsfdsfdsfdsfdsfdsf
+contact_entries:
+  - heading: hello
+    text: text below heading
+---
+
