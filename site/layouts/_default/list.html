@@ -2,6 +2,8 @@
 
 {{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
 
+{{ partial "toc" . }}
+
 <div class="mw7 center">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range (.Paginator 4).Pages.ByPublishDate }}
