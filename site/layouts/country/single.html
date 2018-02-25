@@ -7,6 +7,15 @@
     <p>Year: {{ .Params.ncpyear }} </p>
   </div>
   <div class="cms mw6">
+    
+    	{{ range .Params.advice_entry }}
+				<div>
+					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+          {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+					<p>{{ .text }}</p>
+				</div>
+			{{ end }}
+    
     <p>{{ .Description }}</p>
     {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
     {{ .Content }}
