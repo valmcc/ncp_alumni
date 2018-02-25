@@ -14,7 +14,7 @@
   	{{ range.Params.advice_category }}
     <h1 class= "f2 lh-title b mb3 primary">{{.advice_category_heading}}</h1>
   	
-    	{{ range .Params.advice_entry}}
+    	{{ range .advice_entry}}
 					<h2 class="f2 b lh-title mb2 primary">{{ .heading }}</h2>
           {{ if .imageurl }}<img src="{{ .imageurl }}" alt="{{ .heading }}" />{{ end }}
 					{{ with .text }}
