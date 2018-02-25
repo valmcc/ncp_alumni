@@ -1,18 +1,14 @@
 {{ define "main" }}
 <div class="mw7 center ph3 pv4">
   	<h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-  	<div class="flex justify-between grey-3">
-  		<p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-    	<p>Author: {{ .Params.author }} </p>
-    	<p>Year: {{ .Params.ncpyear }} </p>
-  	</div>
     	<p class = "mw7">{{ .Params.country_description }}</p>
     	{{ if .Params.country_image }}<img src="{{ .Params.country_image }}"/>{{ end }}
 
+    	<h2 class="f2 b lh-title mb2 primary">Contents</h2>
     	{{ range .Params.advice_category}}
     	{{$base := .advice_category_heading }}
     	{{$anchor := print "#" $base}}
-    	<a href={{$anchor}}>{{.advice_category_heading}}</a>
+    	<a class = "ba db mw5 pa3 bg-black-025 mb3 bg-near-white primary" href={{$anchor}}>{{.advice_category_heading}}</a>
 
     	{{end}}
 
