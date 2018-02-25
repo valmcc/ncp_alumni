@@ -1,5 +1,5 @@
 ---
-title: 'COUNTRY'
-type: 'country'
+title: COUNTRY
+type: "country"
 ---
 
