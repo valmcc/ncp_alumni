@@ -9,12 +9,9 @@ blurb:
     What is included is a collection of hints, tips and stories that we wish we had known before setting off on our adventures. 
     While it is intended for scholars in following years, most of the advice here should be useful to anyone moving to these countries in the future. Hopefully it is helpful.
 intro:
-  heading: What we offer
+  heading: Country Specific Advice
   text: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
+    Below you will find advice specific to each country:
 products:
   - image: img/illustrations-coffee.svg
     text: >-
