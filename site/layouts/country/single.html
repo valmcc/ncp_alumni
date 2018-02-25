@@ -11,14 +11,14 @@
     	{{ range .Params.advice_entry}}
 				<div>
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-          {{ if .Params.imageurl }}<img src="{{ .Params.imageurl }}" alt="{{ .heading }}" />{{ end }}
+          {{ if .imageurl }}<img src="{{ .imageurl }}" alt="{{ .heading }}" />{{ end }}
 					{{ with .text }}
 					<p>{{ . | markdownify }}</p>
 					{{ end }}
 					<div class="flex justify-between grey-3">
-		    <p>{{ .Params.advice_author}}</p>
-		    <p>{{ .Params.author_host_uni }} </p>
-		    <p>{{ .Params.author_year }} </p>
+		    <p>{{ .advice_author}}</p>
+		    <p>{{ .author_host_uni }} </p>
+		    <p>{{ .author_year }} </p>
 		  </div>
 				</div>
 			    
