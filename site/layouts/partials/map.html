@@ -3,10 +3,10 @@
 
     <h2 class="f2 b lh-title mb3">{{ .heading }}</h2>
     <p>{{.text}}</p>
-  <div id="map" class="map leaflet-container center w-80" style="height: 500px; position:relative;"></div>
+  <div id="map" class="map leaflet-container center w-90" style="height: 500px; position:relative;"></div>
 <script>
   // initialize the map
-  var map = L.map('map', {attributionControl: false}).setView([0, 120], 4);
+  var map = L.map('map', {attributionControl: false}).setView([0, 120], 3);
   // load a tile layer
     
 L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
