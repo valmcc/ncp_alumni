@@ -33,8 +33,8 @@ collections: # A list of collections the CMS should be able to edit
           - label: "Category Title"
             name: "advice_category_heading"
             widget: "string"
-            label: "Advice Entry"
-            name: "adivce_entry"
+          - label: "Advice Entry"
+            name: "advice_entry"
             widget: "list"
             fields:
               - {label: "Heading", name: "heading", widget: "string"}
