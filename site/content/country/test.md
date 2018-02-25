@@ -10,7 +10,7 @@ author: cheese
 ncpyear: 2013
 advice_entry:
   - heading: advice heading here
-  - image: /img/blog-index.jpg
+  - imageurl: /img/about-single-origin.jpg
   - text: 'advice text here'
 ---
 
