@@ -16,6 +16,11 @@
 					<p>{{ . | markdownify }}</p>
 					{{ end }}
 				</div>
+	    <div class="flex justify-between grey-3">
+    <p>{{ .Params.advice_author}}</p>
+    <p>{{ .Params.author_host_uni }} </p>
+    <p>Year: {{ .Params.author_year }} </p>
+  </div>
 			{{ end }}
     
     <p>{{ .Description }}</p>
