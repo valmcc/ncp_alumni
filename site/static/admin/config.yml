@@ -32,18 +32,17 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - label: "Category Title"
             name: "advice_category_heading"
+            widget: "string"
+            label: "Advice Entry"
+            name: "adivce_entry"
             widget: "list"
             fields:
-            - label: "Advice Entry"
-              name: "adivce_entry"
-              widget: "list"
-              fields:
-                - {label: "Heading", name: "heading", widget: "string"}
-                - {label: "Image", name: "imageurl", widget: "image"}
-                - {label: "Advice Text", name: "text", widget: "markdown" }
-                - {label: "Author", name: "advice_author", widget: "string"}
-                - {label: "Host Uni", name: "author_host_uni", widget: "string"}
-                - {label: "NCP Year", name: "author_year", widget: "string"}
+              - {label: "Heading", name: "heading", widget: "string"}
+              - {label: "Image", name: "imageurl", widget: "image"}
+              - {label: "Advice Text", name: "text", widget: "markdown" }
+              - {label: "Author", name: "advice_author", widget: "string"}
+              - {label: "Host Uni", name: "author_host_uni", widget: "string"}
+              - {label: "NCP Year", name: "author_year", widget: "string"}
 
 
   - name: "pages"
