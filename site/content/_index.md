@@ -3,12 +3,11 @@ title: New Colombo Plan Alumni
 subtitle: Providing advice for future exchange students
 image: /img/about-single-origin.jpg
 blurb:
-  heading: Why Kaldi?
+  heading: What is this site?
   text: >-
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    This is a little site made by past New Colombo Plan Scholars. 
+    What is included is a collection of hints, tips and stories that we wish we had known before setting off on our adventures. 
+    While it is intended for scholars in following years, most of the advice here should be useful to anyone moving to these countries in the future. Hopefully it is helpful.
 intro:
   heading: What we offer
   text: >-
