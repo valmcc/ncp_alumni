@@ -12,7 +12,7 @@ country_image: /img/blog-chemex.jpg
 author: cheese
 ncpyear: 2013
 advice_category:
-	- advice_category_heading: Accomodation
+    - advice_category_heading: Accomodation
       advice_entry:
         - heading: advice heading here
             imageurl: /img/about-single-origin.jpg
