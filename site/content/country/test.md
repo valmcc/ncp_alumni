@@ -14,7 +14,7 @@ ncpyear: 2013
 advice_entry:
   - heading: advice heading here
   - imageurl: /img/about-single-origin.jpg
-  - text: |
+  - text: >-
     advice text here, -test
   * test 
   * test dot point
