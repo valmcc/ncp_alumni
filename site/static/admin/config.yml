@@ -24,7 +24,27 @@ collections: # A list of collections the CMS should be able to edit
         create: true
         fields:
           - {label: "Country Name", name: "title", widget: "string"}
-          
+          - {label: "Country Description", name: "country_description", widget: "text"}
+          - {label: "Country Image", name: "country_image", widget: "image"}
+          - label: "Categories"
+            name: "advice_category"
+            widget: "list"
+            fields:
+              - label: "Category Title"
+                name: "advice_category_heading"
+                widget: "list"
+                fields:
+                - label: "Advice Entry"
+                  name: "adivce_entry"
+                  widget: "list"
+                  fields:
+                    - {label: "Heading", name: "heading", widget: "string"}
+                    - {label: "Image", name: "imageurl", widget: "image"}
+                    - {label: "Advice Text", name: "text", widget: "markdown" }
+                    - {label: "Author", name: "advice_author", widget: "string"}
+                    - {label: "Host Uni", name: "author_host_uni", widget: "string"}
+                    - {label: "NCP Year", name: "author_year", widget: "string"}
+
 
   - name: "pages"
     label: "Pages"
@@ -65,51 +85,4 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
-      - file: "site/content/country/_index.md"
-        label: "Country page"
-        name: "country"
-        fields:
-          - {label: Country, name: country, widget: string}
-          - label: fields
-            name: fields
-            widget: list
-            fields:
-              - label: Body
-              - name: body
-              - widget: markdown
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
-      - file: "site/content/products/_index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-      - file: "site/content/values/_index.md"
-        label: "Values Page"
-        name: "values"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - label: Values
-            name: values
-            widget: list
-            fields:
-              - {label: Heading, name: heading, widget: string}
-              - {label: Content, name: content, widget: markdown}
-              - {label: Image, name: imageUrl, widget: image}
+
