@@ -8,14 +8,13 @@
   	</div>
     	<p class = "mw7">{{ .Params.country_description }}</p>
     	{{ if .Params.country_image }}<img src="{{ .Params.country_image }}"/>{{ end }}
-    {{ partial "toc" . }}
   	</div>
   	<div class="cms center ph3 pv4 mw7">
-  	{{ range.Params.advice_category }}
-    <h1 class= "f2 lh-title b mb3 primary">{{.advice_category_heading}}</h1>
+  	{{ range .Params.advice_category }}
+    <h1 class= "f2 lh-title b mb3 primary" id={{.advice_category_heading}}>{{.advice_category_heading}}</h1>
   	
     	{{ range .advice_entry}}
-					<h2>{{ .heading }}</h2>
+					<h2 class="f2 b lh-title mb2 primary">{{ .heading }}</h2>
           {{ if .imageurl }}<img src="{{ .imageurl }}" alt="{{ .heading }}" />{{ end }}
 					{{ with .text }}
 					<p class = "mw7">{{ . | markdownify }}</p>
