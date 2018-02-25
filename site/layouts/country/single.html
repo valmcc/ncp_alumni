@@ -12,7 +12,9 @@
 				<div>
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
           {{ if .Params.imageurl }}<img src="{{ .Params.imageurl }}" alt="{{ .Title }}" />{{ end }}
-					<p>{{ .text | markdownify }}</p>
+					{{ with .text }}
+					<p>{{ . | markdownify }}</p>
+					{{ end }}
 				</div>
 			{{ end }}
     
