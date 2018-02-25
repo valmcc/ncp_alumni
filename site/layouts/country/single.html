@@ -15,7 +15,7 @@
     <h1 class= "f2 lh-title b mb3 primary">{{.advice_category_heading}}</h1>
   	
     	{{ range .advice_entry}}
-					<h2 class="f2 b lh-title mb2 primary">{{ .heading }}</h2>
+					<h2>{{ .heading }}</h2>
           {{ if .imageurl }}<img src="{{ .imageurl }}" alt="{{ .heading }}" />{{ end }}
 					{{ with .text }}
 					<p class = "mw7">{{ . | markdownify }}</p>
