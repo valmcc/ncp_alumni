@@ -1,0 +1,57 @@
+<div class="bg-off-white pv4">
+  <div class="ph3 mw7 center">
+
+    <h2 class="f2 b lh-title mb3">{{ .heading }}</h2>
+    <p>{{.text}}</p>
+  <div id="map" class="map leaflet-container center w-80" style="height: 500px; position:relative;"></div>
+<script>
+  // initialize the map
+  var map = L.map('map', {attributionControl: false}).setView([0, 120], 4);
+  // load a tile layer
+    
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+  subdomains: 'abcd',
+  maxZoom: 19
+}).addTo(map);
+    
+//Adding markers
+var malaysia = L.marker([3.1389, 101.6871]).addTo(map);
+    malaysia.bindPopup('<a href="/country/malaysia">Malaysia</a>');
+var indonesia = L.marker([-6.1754, 106.8272]).addTo(map);
+    indonesia.bindPopup('<a href="/country/indonesia">Indonesia</a>');
+var hong_kong = L.marker([22.2789, 114.1631]).addTo(map);
+    hong_kong.bindPopup('<a href="/country/hong_kong">Hong Kong</a>');
+var myanmar = L.marker([19.7450, 96.1297]).addTo(map);
+    myanmar.bindPopup('<a href="/country/myanmar">Myanmar</a>');
+var japan = L.marker([35.67, 139.7]).addTo(map);
+    japan.bindPopup('<a href="/country/japan">Japan</a>');
+var korea = L.marker([37.5651, 126.9745]).addTo(map);
+    korea.bindPopup('<a href="/country/korea">Republic of Korea </a>');
+var thailand = L.marker([13.5862, 100.6332]).addTo(map);
+    thailand.bindPopup('<a href="/country/thailand">Thailand</a>');
+var china = L.marker([39.9061, 116.3912]).addTo(map);
+    china.bindPopup('<a href="/country/china">China</a>');
+var taiwan = L.marker([25.0376, 121.5637]).addTo(map);
+    taiwan.bindPopup('<a href="/country/taiwan">Taiwan</a>');
+var singapore = L.marker([1.2905, 103.8520]).addTo(map);
+    singapore.bindPopup('<a href="/country/singapore">Singapore</a>');
+var philippines = L.marker([14.5980, 120.9839]).addTo(map);
+    philippines.bindPopup('<a href="/country/philippines">Philippines</a>');
+var sri_lanka = L.marker([6.9220, 79.8562]).addTo(map);
+    sri_lanka.bindPopup('<a href="/country/sri_lanka">Sri Lanka</a>');
+var suva = L.marker([-18.1417, 178.4422]).addTo(map);
+    suva.bindPopup('<a href="/country/suva">Suva</a>');
+var male = L.marker([4.1775, 73.4868]).addTo(map);
+    male.bindPopup('<a href="/country/male">Malé</a>');
+var india = L.marker([28.6139, 77.2038]).addTo(map);
+    india.bindPopup('<a href="/country/india">India</a>');
+var bhutan = L.marker([27.5639, 89.5181]).addTo(map);
+    bhutan.bindPopup('<a href="/country/bhutan">Bhutan</a>');
+var nepal = L.marker([27.7097, 85.3218]).addTo(map);
+    nepal.bindPopup('<a href="/country/nepal">Nepal</a>');
+var solomon_islands = L.marker([-9.4313, 159.9553]).addTo(map);
+    solomon_islands.bindPopup('<a href="/country/solomon_islands">Solomon Islands</a>');
+  </script>
+</div>
+</div>
