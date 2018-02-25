@@ -6,6 +6,7 @@
     <p>Author: {{ .Params.author }} </p>
     <p>Year: {{ .Params.ncpyear }} </p>
   </div>
+  <p>{{ .Description }}</p>
   <div class="cms mw6">
     
     	{{ range .Params.advice_entry}}
@@ -24,7 +25,7 @@
 			    
 			{{ end }}
     
-    <p>{{ .Description }}</p>
+    
     {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
     {{ .Content }}
   </div>
