@@ -9,6 +9,7 @@
     	<p class = "mw7">{{ .Params.country_description }}</p>
     	{{ if .Params.country_image }}<img src="{{ .Params.country_image }}"/>{{ end }}
     {{ partial "toc" . }}
+    {{ partial "table-of-contents" . }}
   	</div>
   	
   	<div class="cms center ph3 pv4 mw7">
@@ -16,7 +17,7 @@
 					<h2 class="f2 b lh-title mb2 primary">{{ .heading }}</h4>
           {{ if .imageurl }}<img src="{{ .imageurl }}" alt="{{ .heading }}" />{{ end }}
 					{{ with .text }}
-					<p>{{ . | markdownify }}</p>
+					<p class = "mw7">{{ . | markdownify }}</p>
 					{{ end }}
 
 		<p class="tr grey-3 mw7">
