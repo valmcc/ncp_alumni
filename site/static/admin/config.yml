@@ -20,30 +20,30 @@ collections: # A list of collections the CMS should be able to edit
   - name: "country"
     label: "Countries"
     files:
-      - folder: "site/content/country"
-        create: true
+    folder: "site/content/country"
+    create: true
+    fields:
+      - {label: "Country Name", name: "title", widget: "string"}
+      - {label: "Country Description", name: "country_description", widget: "text"}
+      - {label: "Country Image", name: "country_image", widget: "image"}
+      - label: "Categories"
+        name: "advice_category"
+        widget: "list"
         fields:
-          - {label: "Country Name", name: "title", widget: "string"}
-          - {label: "Country Description", name: "country_description", widget: "text"}
-          - {label: "Country Image", name: "country_image", widget: "image"}
-          - label: "Categories"
-            name: "advice_category"
+          - label: "Category Title"
+            name: "advice_category_heading"
             widget: "list"
             fields:
-              - label: "Category Title"
-                name: "advice_category_heading"
-                widget: "list"
-                fields:
-                - label: "Advice Entry"
-                  name: "adivce_entry"
-                  widget: "list"
-                  fields:
-                    - {label: "Heading", name: "heading", widget: "string"}
-                    - {label: "Image", name: "imageurl", widget: "image"}
-                    - {label: "Advice Text", name: "text", widget: "markdown" }
-                    - {label: "Author", name: "advice_author", widget: "string"}
-                    - {label: "Host Uni", name: "author_host_uni", widget: "string"}
-                    - {label: "NCP Year", name: "author_year", widget: "string"}
+            - label: "Advice Entry"
+              name: "adivce_entry"
+              widget: "list"
+              fields:
+                - {label: "Heading", name: "heading", widget: "string"}
+                - {label: "Image", name: "imageurl", widget: "image"}
+                - {label: "Advice Text", name: "text", widget: "markdown" }
+                - {label: "Author", name: "advice_author", widget: "string"}
+                - {label: "Host Uni", name: "author_host_uni", widget: "string"}
+                - {label: "NCP Year", name: "author_year", widget: "string"}
 
 
   - name: "pages"
