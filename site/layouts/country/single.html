@@ -12,7 +12,8 @@
     	{{ range .Params.advice_category}}
     	{{$base := .advice_category_heading }}
     	{{$anchor := print "#" $base}}
-    	<a href=$anchor{{.advice_category_heading}}</a>
+    	<a href=$anchor>{{.advice_category_heading}}</a>
+
     	{{end}}
 
   	</div>
