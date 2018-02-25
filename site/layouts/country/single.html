@@ -5,10 +5,11 @@
     	<p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
     	<p>Author: {{ .Params.author }} </p>
     	<p>Year: {{ .Params.ncpyear }} </p>
-  	</div>
-  	<p>{{ .Params.country_description }}</p>
-    {{ if .Params.country_image }}<img src="{{ .Params.country_image }}" alt="" />{{ end }}
+    	<p>{{ .Params.country_description }}</p>
+    	{{ if .Params.country_image }}<img src="{{ .Params.country_image }}"/>{{ end }}
     {{ partial "toc" . }}
+  	</div>
+  	
   	<div class="cms mw7">
     
     	{{ range .Params.advice_entry}}
@@ -19,11 +20,11 @@
 					<p>{{ . | markdownify }}</p>
 					{{ end }}
 
+		<p class="tr grey-3">
+		    {{ .advice_author}}, {{ .author_host_uni }} ({{ .author_year }})
+		</p>
 				</div>
-		<div class="tr grey-3">
-		    <p>{{ .advice_author}}, {{ .author_host_uni }} ({{ .author_year }})</p>
-		</div>
-			    
+		    
 			{{ end }}
     
     
