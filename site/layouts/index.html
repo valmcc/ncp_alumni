@@ -5,6 +5,7 @@
 {{ partial "short-text" .Params.blurb}}
 
 <div>
+	<div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 <script>
   // initialize the map
   var map = L.map('map', {attributionControl: false}).setView([0, 120], 4);
