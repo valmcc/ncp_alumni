@@ -8,7 +8,10 @@ ncpyear: 2013
 advice_entry:
   - heading: advice heading here
   - imageurl: /img/about-single-origin.jpg
-  - text: 'advice text here'
+  - text: 'advice text here, -test
+  -test 
+  -test dot point
+  *header*'
   - advice_author: val
   - author_host_uni: uni malaya
   - author_year: 2020
