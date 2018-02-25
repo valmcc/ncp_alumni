@@ -4,7 +4,8 @@
 
 {{ partial "short-text" .Params.blurb}}
 
-{{ partial "map" . }}
+{{< load-leaflet-local >}}
+{{< leaflet-simple mapHeight="200" mapWidth="200" mapLon="10" mapLat="20">}}
 
 {{ partial "blog" . }}
 
