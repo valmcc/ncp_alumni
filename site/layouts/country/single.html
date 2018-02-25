@@ -1,13 +1,15 @@
 {{ define "main" }}
 <div class="mw6 center ph3 pv4">
-  <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-  <div class="flex justify-between grey-3">
-    <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-    <p>Author: {{ .Params.author }} </p>
-    <p>Year: {{ .Params.ncpyear }} </p>
-  </div>
-  <p>{{ .Description }}</p>
-  <div class="cms mw6">
+  	<h1 class="f2 lh-title b mb3">{{.Title}}</h1>
+  	<div class="flex justify-between grey-3">
+    	<p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+    	<p>Author: {{ .Params.author }} </p>
+    	<p>Year: {{ .Params.ncpyear }} </p>
+  	</div>
+  	<p>{{ .Params.country_description }}</p>
+    {{ if .Params.country_image }}<img src="{{ .Params.country_image }}" alt="" />{{ end }}
+    {{ partial "toc" . }}
+  	<div class="cms mw6">
     
     	{{ range .Params.advice_entry}}
 				<div>
@@ -16,18 +18,18 @@
 					{{ with .text }}
 					<p>{{ . | markdownify }}</p>
 					{{ end }}
-					<div class="flex justify-between grey-3">
+
+				</div>
+		<div class="flex justify-between grey-3">
 		    <p>{{ .advice_author}}</p>
 		    <p>{{ .author_host_uni }} </p>
 		    <p>{{ .author_year }} </p>
-		  </div>
-				</div>
+		</div>
 			    
 			{{ end }}
     
     
-    {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-    {{ .Content }}
-  </div>
+
+	</div>
 </div>
 {{ end }}

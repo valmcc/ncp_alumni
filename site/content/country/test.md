@@ -1,10 +1,7 @@
 ---
 title: country naem
 date: 2017-01-04T15:04:10.000Z
-country_description: >-
-  Brewing with a Chemex probably seems like a complicated, time-consuming
-  ordeal, but once you get used to the process, it becomes a soothing ritual
-  that's worth the effort every time.
+country_description: This is where a brief description of the country goes.
 country_image: /img/blog-chemex.jpg
 author: cheese
 ncpyear: 2013
