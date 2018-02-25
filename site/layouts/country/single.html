@@ -11,7 +11,7 @@
     	{{ range .Params.advice_entry}}
 				<div>
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-          {{ if .Params.imageurl }}<img src="{{ .Params.imageurl }}" alt="{{ .Title }}" />{{ end }}
+          {{ if .Params.imageurl }}<img src="{{ .Params.imageurl }}" alt="{{ .heading }}" />{{ end }}
 					{{ with .text }}
 					<p>{{ . | markdownify }}</p>
 					{{ end }}
