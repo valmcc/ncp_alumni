@@ -10,5 +10,9 @@ advice_category:
         author_year: '2015'
         heading: Nasi Lemak
         text: Man I love nasi lemak!!
+      - heading: Mi Goreng
+  - advice_category_heading: Accomodation
+    advice_entry:
+      - {}
 ---
 
