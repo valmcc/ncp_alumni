@@ -14,5 +14,11 @@ advice_category:
   - advice_category_heading: Accomodation
     advice_entry:
       - {}
+      - advice_author: Valer
+        author_host_uni: University of London
+        author_year: '1902'
+        heading: Res
+        imageurl: /img/about-sustainable-farming.jpg
+        text: Hey this coffee on res is really good!!!!!!111!!!1
 ---
 
