@@ -26,7 +26,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Country Name", name: "title", widget: "string"}
       - {label: "Country Description", name: "country_description", widget: "text"}
       - {label: "Country Image", name: "country_image", widget: "image"}
-      - {label: "Country Flag, name: "country_flag", widget: "image"}
+      - {label: "Country Flag", name: "country_flag", widget: "image"}
       - label: "Categories"
         name: "advice_category"
         widget: "list"
