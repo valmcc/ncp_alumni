@@ -1,3 +1,4 @@
 ---
 title: Countries
+type: country
 ---
