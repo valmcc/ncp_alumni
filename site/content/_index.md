@@ -1,7 +1,7 @@
 ---
-title: New Colombo Plan Alumni
-subtitle: Providing advice for future exchange students
-image: /img/about-single-origin.jpg
+title: Alumni Advice
+subtitle: Providing information for future exchange students
+image: /img/ipoh_temple.jpg
 blurb:
   heading: What is this site?
   text: >-
