@@ -6,7 +6,7 @@
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range (.Paginator 4).Pages.ByPublishDate }}
           <div class="ph1-ns">
-            {{ .Render "single_mod"}}
+            {{ .Render "single_mod_country"}}
           </div>
       {{ end }}
   </ul>
