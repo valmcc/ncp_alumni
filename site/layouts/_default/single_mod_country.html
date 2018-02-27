@@ -1,9 +1,9 @@
 <a href="{{ .Permalink }}" >
 	<header>
-	  <h2 class = "f2 lh-title b mb3 primary">{{ .Title }}</h2> 
+	  <h2 class = "f2 lh-title b mb3 primary underkube">{{ .Title }}</h2> 
 	</header>
 </a>
-<body class="sans-serif">
-<p class="mb0">{{ .Params.country_description }}</p>
+<body class="sans-serif">	
+{{ if .Params.country_flag }}<img src="{{ .Params.country_image }}" class="w-20"/>{{ end }}
 </body>
 
