@@ -21,6 +21,7 @@ country_description: >-
   have evolved over the years, sometimes by accident, sometimes on purpose
   (injected humour and the like).
 country_image: /img/products-grid2.jpg
+country_flag: /img/products-grid1.jpg
 advice_category:
   - advice_category_heading: Accomodation
     advice_entry:
