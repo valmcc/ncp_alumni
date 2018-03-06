@@ -15,6 +15,6 @@ intro:
 about:
   heading: The New Colombo Plan
   text: >-
-    Insert info about ncp.
+    The New Colombo Plan is an initiative of the Australian Government, aiming to increase the level of knowledge of the Indo-Pacific region for Australian undergraduates by supporting exchanges and internships in the region.
 ---
 
