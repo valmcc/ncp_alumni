@@ -2,10 +2,13 @@
 <div class="mw7 center ph3 pv4">
   	<h1 class="f2 lh-title b mb3">{{.Title}}</h1>
   		{{ if .Params.country_image }}<img src="{{ .Params.country_image }}" class="w-100"/>{{ end }}
-    	<p class = "mw7">{{ .Params.country_description }}</p>
+    	<p class = "mw7">{{ if .Params.country_description }}{{ .Params.country_description }} 
+      {{ else }}
+        There is no information here. If you would like to contribute, please send me an email at "valerian.mccaskill@gmail.com", cheers!
+      {{ end }}</p>
     	
 
-    	<h2 class="f3 b lh-title mb2 primary">Contents</h2>
+    	{{ if .Params.country_description }}<h2 class="f3 b lh-title mb2 primary">Contents</h2>{{ end }}
     	{{ range .Params.advice_category}}
     	{{$base := .advice_category_heading }}
     	{{$anchor := print "#" $base}}
@@ -26,7 +29,7 @@
 					{{ end }}
 
 		<p class="tr grey-3 mw7">
-		    {{ .advice_author}}, {{ .author_host_uni }} ({{ .author_year }})
+		    {{ .advice_author}}{{ if .author_host_uni }}, {{ .author_host_uni }}{{end}} {{ if .author_year }}({{ .author_year }}){{ end }}
 		</p>
 		    
 			{{ end }}
