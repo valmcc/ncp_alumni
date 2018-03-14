@@ -24,9 +24,13 @@
     	{{ range .advice_entry}}
 					<h2 class="f2 b lh-title mb2 primary">{{ .heading }}</h2>
           {{ if .imageurl }}<img src="{{ .imageurl }}" alt="{{ .heading }}" class="w-100"/>{{ end }}
-					{{ with .text }}
-					<p class = "mw7">{{ . | markdownify }}</p>
-					{{ end }}
+					
+					<p class = "mw7">
+          {{ with .text }}
+          {{ . | markdownify }}
+          {{ end }}
+          </p>
+					
 
 		<p class="tr grey-3 mw7">
 		    {{ .advice_author}}{{ if .author_host_uni }}, {{ .author_host_uni }}{{end}} {{ if .author_year }}({{ .author_year }}){{ end }}
