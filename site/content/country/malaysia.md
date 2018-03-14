@@ -51,14 +51,10 @@ advice_category:
           properties will specify the type of racial background they want the
           tenant to have).
 
-
-
           * Airbnb: I'm sure you're all familiar with this one! Quite a few
           options but they do tend to be a bit more pricey than ibilik.
 
-
-
-          * \- University accommodation: mixed reviews. This can be very cheap,
+          * University accommodation: mixed reviews. This can be very cheap,
           very convenient and a good way to make friends. However, it can also
           be run down, dirty and not very comfortable (no air-con which kinda a
           big tie-breaker). Plus there's certain rules you'll need to be
@@ -68,10 +64,7 @@ advice_category:
           House (IH). IH is a bunch of fairly new apartments built just off
           campus and doesn't have any of the rules that the on-campus dorms
           have. You can live with whoever you want and it's very convenient and
-          pretty modern (and yes there is aircon!). 
-
-
-          \- ?
+          pretty modern (and yes there is aircon!).
       - advice_author: Susanna
         author_host_uni: Universiti Malaya
         author_year: '2016'
