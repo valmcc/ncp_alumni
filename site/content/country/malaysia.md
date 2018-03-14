@@ -71,5 +71,19 @@ advice_category:
 
 
           \- ?
+      - advice_author: Susanna
+        author_host_uni: Universiti Malaya
+        author_year: '2016'
+        heading: Things to look out for when choosing a place to live
+        text: >-
+          \- It's pretty standard practice that you will be required to pay a
+          bond/safety deposit before moving in. This generally tends to be the
+          equivalent of 1-2 months rent, depending on your landlord/lady.
+          However, it's also very common for it to be incredibly difficult to
+          get your bond back. This tends to happen to internationals and as it's
+          generally around the time you're heading back home/moving on a lot of
+          people in this situation never get their bond back. TIP: ask your
+          landlord/lady if instead of paying your final month/two month's rent
+          you can forgo your deposit.
 ---
 
