@@ -39,22 +39,22 @@ advice_category:
           There's a few options when it comes to choosing accommodation:
 
 
-          * Facebook: it may sound strange but some of the NCPers who ended up
-          with the best deals found accommodation through facebook groups. Lots
-          of expats join private facebook pages and with internationals
+          * **Facebook:** it may sound strange but some of the NCPers who ended
+          up with the best deals found accommodation through facebook groups.
+          Lots of expats join private facebook pages and with internationals
           coming/going constantly there are many nice apartments with available
           rooms (around 1000-1500 MYR)
 
-          * Ibilik: Malaysia's version of Airbnb. It tends to have a whole range
-          of prices/types of accommodation but isn't as user friendly as some of
-          the other options. We also found it to be a bit racists (e.g.
+          * **Ibilik:** Malaysia's version of Airbnb. It tends to have a whole
+          range of prices/types of accommodation but isn't as user friendly as
+          some of the other options. We also found it to be a bit racists (e.g.
           properties will specify the type of racial background they want the
           tenant to have).
 
-          * Airbnb: I'm sure you're all familiar with this one! Quite a few
+          * **Airbnb:** I'm sure you're all familiar with this one! Quite a few
           options but they do tend to be a bit more pricey than ibilik.
 
-          * University accommodation: mixed reviews. This can be very cheap,
+          * **University accommodation:** mixed reviews. This can be very cheap,
           very convenient and a good way to make friends. However, it can also
           be run down, dirty and not very comfortable (no air-con which kinda a
           big tie-breaker). Plus there's certain rules you'll need to be
