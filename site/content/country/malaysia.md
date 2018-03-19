@@ -96,7 +96,7 @@ advice_category:
           ## Good Vibes Music Festival
 
 
-          ![](/img/good vibes.jpg)
+          ![Good vibes logo](/img/good vibes.jpg)
 
 
           Located in Genting Highlands, north of KL, this festival usually has a
@@ -113,7 +113,7 @@ advice_category:
           ## Tiger Uncaged
 
 
-          ![](/img/tiger uncaged.jpg)
+          ![CHVRCHES](/img/tiger uncaged.jpg)
 
 
           Tiger is a beer company, and to promote their product they have a few
@@ -128,10 +128,11 @@ advice_category:
           ## Red Bull Music Academy
 
 
-          ![](/img/15233775_1168054999930068_1199554881_o.jpg)
+          ![Hanging out with
+          BADBADNOTGOOD](/img/15233775_1168054999930068_1199554881_o.jpg)
 
 
-          _Photo: Chatting with BADBADNOTGOOD_
+          _Photo: Hanging out with BADBADNOTGOOD_
 
 
           This is an initiative by Red Bull to try to connect local artists with
