@@ -10,19 +10,6 @@ country_description: >-
   freedom to practice other religions. 
 country_image: /img/uni malaya gates.jpg
 advice_category:
-  - advice_category_heading: Food
-    advice_entry:
-      - advice_author: Valerian
-        author_host_uni: University Malaya
-        author_year: '2015'
-        heading: Chicken Rice
-        imageurl: /img/chicken_rice_malaysia.jpg
-        text: >-
-          A tasty and staple food that you can find at many small (mostly
-          Chinese) restuarants but also on campus at University Malaya. It
-          usually costs around 5 ringgit (about $1.50 AUD - what a bargain!) and
-          is very filling. It typically comes with a small bowl of kuah (soup)
-          that you can add to the rice if it is too dry.
   - advice_category_heading: Accomodation
     advice_entry:
       - advice_author: 'Susanna '
@@ -192,5 +179,18 @@ advice_category:
 
           * [The CityList](https://thecitylist.my/) (new site - has a lot of
           events)
+  - advice_category_heading: Food
+    advice_entry:
+      - advice_author: Valerian
+        author_host_uni: University Malaya
+        author_year: '2015'
+        heading: Chicken Rice
+        imageurl: /img/chicken_rice_malaysia.jpg
+        text: >-
+          A tasty and staple food that you can find at many small (mostly
+          Chinese) restuarants but also on campus at University Malaya. It
+          usually costs around 5 ringgit (about $1.50 AUD - what a bargain!) and
+          is very filling. It typically comes with a small bowl of kuah (soup)
+          that you can add to the rice if it is too dry.
 ---
 
