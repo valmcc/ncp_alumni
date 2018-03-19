@@ -112,6 +112,13 @@ advice_category:
           water guns filled with UV paint with free-paint walls in the carpark.
 
 
+          ![ncp throwie](/img/ncp graf.jpg)
+
+
+          _Some say that evidence of the New Colombo Plan in Malaysia still
+          exists on the walls of the TREC car park_
+
+
           ## Red Bull Music Academy
 
 
