@@ -79,5 +79,117 @@ advice_category:
           people in this situation never get their bond back. TIP: ask your
           landlord/lady if instead of paying your final month/two month's rent
           you can forgo your deposit.
+  - advice_category_heading: Events
+    advice_entry:
+      - advice_author: Valerian
+        author_host_uni: Universiti Malaya
+        author_year: '2016'
+        heading: A Guide to Kuala Lumpur's Music Scene
+        text: >-
+          This is a brief guide to music events around Kuala Lumpur. There are a
+          surprising amount of big artists visiting KL due to it being quite
+          central to the Asian region ~ and a lot of the shows are quite cheap,
+          and don't even sell out!! There is more to add here, but consider this
+          a brief intro.
+
+
+          ## Good Vibes Music Festival
+
+
+          ![](/img/good vibes.jpg)
+
+
+          Located in Genting Highlands, north of KL, this festival usually has a
+          surprisingly good lineup for such a low price (tickets are usually
+          ~$40 AUD). You can get a package to stay at the hotel on the top of
+          the mountatin (First World Hotel) and take the gondola down to the
+          festival ground. We went in 2016 and saw Disclosure, Two Door Cinema
+          Club, Ryan Hemsworth, Purity Ring, and noticed that the crowd was
+          super respectful and friendly. Unfortunately an un-named scholar I
+          went with left her phone and didn't find it again, losing all of our
+          photos of this event. Despite this, would recommend. 
+
+
+          ## Tiger Uncaged
+
+
+          ![](/img/tiger uncaged.jpg)
+
+
+          Tiger is a beer company, and to promote their product they have a few
+          events/festivals around KL. I got to attend a free CHVRCHES concert on
+          the TREC carpark via one of their contests on their Facebook page.
+          I've checked out some of their food events also, (you can usually get
+          invited by commenting to a post on their Facebook page) and they
+          generally have some pretty cool stuff set up eg. free spray paint or
+          water guns filled with UV paint with free-paint walls in the carpark.
+
+
+          ## Red Bull Music Academy
+
+
+          ![](/img/15233775_1168054999930068_1199554881_o.jpg)
+
+
+          _Photo: Chatting with BADBADNOTGOOD_
+
+
+          This is an initiative by Red Bull to try to connect local artists with
+          international acts to try to improve the local scene. They advertise
+          free producer meetups that you can go to and talk to a lot of
+          international talent (and get free tix to their shows!) Would
+          recommend if you are into music production. Also they run cheap shows
+          with local and international acts around the city (usually at Le Noir
+          or Urbanscapes House). I met some awesome artists and people through
+          these (BADBADNOTGOOD, Phon.O, the 50 weapons record label guys, the
+          bouncer from Berghain etc.)
+
+
+          ## Urbanscapes Festival
+
+
+          Unfortunately I wasn't here for this, but I have heard good things!!
+
+
+          ## Interesting Venues
+
+
+          * [Le Noir](https://www.facebook.com/LeNoirKL/) (low key venue with
+          electronic and acoustic acts - recommended!)
+
+          * [無限發掘 FINDARS](https://www.facebook.com/findarsartspace/)
+          (experimental music)
+
+          * [No Black Tie ](https://www.facebook.com/noblacktie/)(THE jazz club)
+
+          * [Kyo KL](https://www.residentadvisor.net/club.aspx?id=128702) (new
+          club, I only went to the opening events but has a lot of big
+          producers. Electronic music)
+
+          * [Jiro KL](https://www.facebook.com/jirokl/) (I saw Tiga here but
+          no-one knew who he was! Older and kinda weird crowd, house music/tech)
+
+          * [Under9](https://www.facebook.com/under9kl/) (techno/electronic, 
+          DJs/local producers attend these gigs - recommended!)
+
+          * [Minut Init](https://www.facebook.com/minut.init) (art gallery/bar
+          with local music events)
+
+          * Zouk (try to avoid, expensive and is just boring EDM)
+
+
+          ## How to find Events
+
+
+          * [Timeout magazine
+          ](https://www.timeout.com/kuala-lumpur/music-nightlife)(try to get the
+          hard-copy, it seems to have more info!)
+
+          * [Resident
+          Advisor](https://www.residentadvisor.net/events/my/kualalumpur) (for
+          electronic acts)
+
+          * [The CityList](https://thecitylist.my/) (new site - has a lot of
+          events)
 ---
 
